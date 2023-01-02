@@ -1,4 +1,4 @@
-import { Phone, Envelope } from "phosphor-react";
+import { Phone, Envelope, MagnifyingGlass } from "phosphor-react";
 import React from "react";
 import "../../style/admin-companies/admin-companies.css";
 import Logo from "../../img/company.jpg";
@@ -6,6 +6,13 @@ import Logo from "../../img/company.jpg";
 export default function Companies() {
   return (
     <div className="admin-companies">
+      <div className="search-bar">
+        <input placeholder="Search by name..." type="text" />
+        <button>
+          <MagnifyingGlass size={20} color="#212121" weight="bold" />
+        </button>
+      </div>
+
       <div className="company">
         <img src={Logo} alt="Company image" />
         <h3>EasyBurger</h3>

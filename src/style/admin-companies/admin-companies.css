@@ -10,6 +10,28 @@
   -moz-column-gap: 50px;
        column-gap: 50px;
   row-gap: 70px;
+  position: relative;
+}
+.admin-companies .search-bar {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 350px;
+  background: #eaeaea;
+  border-radius: 8px;
+}
+.admin-companies .search-bar input {
+  padding: 10px 20px;
+  width: 80%;
+  font-size: 20px;
+  border: 0;
+  background: transparent;
+}
+.admin-companies .search-bar button {
+  padding: 10px 20px;
+  width: 20%;
+  background: transparent;
+  border: 0;
 }
 .admin-companies .company {
   width: 100%;
