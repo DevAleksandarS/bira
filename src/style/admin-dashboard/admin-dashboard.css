@@ -1,0 +1,117 @@
+.admin-dashboard {
+  margin-left: 300px;
+  width: calc(100vw - 300px);
+  height: 100vh;
+  padding: 40px 50px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 180px;
+  gap: 50px;
+}
+.admin-dashboard .dash-cont {
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.admin-dashboard .dash-cont h2 {
+  font-size: 25px;
+}
+.admin-dashboard .dash-cont .line {
+  width: 100%;
+  height: 2px;
+  background: #dddddd;
+  margin: 5px 0 15px 0;
+}
+.admin-dashboard .dash-cont p {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  color: #555555;
+}
+.admin-dashboard .dash-cont ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+.admin-dashboard .dash-cont ul li {
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin-dashboard .dash-cont ul li p {
+  font-size: 20px;
+  color: #333;
+  text-align: start;
+  font-weight: 500;
+}
+.admin-dashboard .dash-cont ul li div {
+  padding: 2px 5px;
+  border-radius: 900px;
+  background: #00a053;
+}
+.admin-dashboard .all-solved-tickets {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: -3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.admin-dashboard .avg-response-time {
+  width: 100%;
+  height: 100%;
+  grid-column-start: -3;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.admin-dashboard .avg-solve-ticket {
+  width: 100%;
+  height: 100%;
+  grid-column-start: -3;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.admin-dashboard .best-employee {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: -5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  overflow-y: scroll;
+}
+.admin-dashboard .best-employee::-webkit-scrollbar {
+  width: 0;
+}
+.admin-dashboard .companies-with-most-tickets {
+  width: 100%;
+  height: 100%;
+  grid-column-start: -5;
+  grid-column-end: -1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}/*# sourceMappingURL=admin-dashboard.css.map */

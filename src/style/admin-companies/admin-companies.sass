@@ -1,0 +1,91 @@
+.admin-companies
+  margin-left: 300px
+  width: calc( 100vw - 300px )
+  height: 100vh
+  padding: 70px 50px
+  overflow-y: scroll
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-auto-rows: 350px
+  column-gap: 50px
+  row-gap: 70px
+  
+  .company
+    width: 100%
+    height: 100%
+    padding: 60px 20px 20px 20px
+    position: relative
+    background: #f3f3f3
+    border-radius: 10px
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px
+
+    img
+      width: 30%
+      border-radius: 50%
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translate(-50%, -50%)
+
+    h3
+      color: #333
+      font-size: 30px
+      text-align: center
+      font-weight: bolder
+
+    .flex-jcc
+      margin-top: 10px
+      display: flex
+      align-items: center
+      justify-content: space-between
+
+      p
+        color: #333
+        font-size: 20px
+
+        span
+          font-weight: bold
+
+      .flex-gap05
+        display: flex
+        gap: 5px
+
+        button
+          cursor: pointer
+          background: transparent
+          border: 0
+
+    .line
+      width: 100%
+      height: 2px
+      background: #dddddd
+      margin: 10px 0
+
+    .ticket
+      color: #333
+      font-size: 20px
+
+      span
+        font-weight: bold
+
+    .location-p
+      margin: 10px 0 2.5px 0
+      color: #333
+      font-size: 20px
+
+    ul
+      height: 45%
+      width: 100%
+      overflow-y: scroll
+      display: flex
+      flex-direction: column
+      gap: 5px
+
+      &::-webkit-scrollbar
+        width: 0
+
+      li
+        margin-left: 20px
+        color: #333
+        font-size: 18px
+  
