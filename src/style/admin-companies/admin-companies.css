@@ -75,7 +75,8 @@
   font-size: 20px;
 }
 .admin-companies .company ul {
-  height: 45%;
+  margin-top: 5px;
+  height: 40%;
   width: 100%;
   overflow-y: scroll;
   display: flex;
@@ -86,7 +87,17 @@
   width: 0;
 }
 .admin-companies .company ul li {
+  font-size: 18px;
   margin-left: 20px;
+}
+.admin-companies .company ul li button {
+  text-align: start;
+  background: transparent;
+  border: 0;
   color: #333;
   font-size: 18px;
+}
+.admin-companies .company ul li button:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }/*# sourceMappingURL=admin-companies.css.map */

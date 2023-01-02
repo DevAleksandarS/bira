@@ -31,14 +31,33 @@ export default function Companies() {
 
         <p className="location-p">Locations:</p>
         <ul>
-          <li>18 East Dogwood Dr. Brooklyn, NY 11229</li>
-          <li>New York</li>
-          <li>New York</li>
-          <li>New York</li>
-          <li>New York</li>
-          <li>New York</li>
-          <li>New York</li>
-          <li>New York</li>
+          <li>
+            <button>18 East Dogwood Dr. Brooklyn, NY 11229</button>
+          </li>
+
+          <li>
+            <button>171 North Prince Rd. Lockport, NY 14094</button>
+          </li>
+
+          <li>
+            <button>23 San Carlos Dr. Jamaica, NY 11434</button>
+          </li>
+
+          <li>
+            <button>261 Joy Ridge Ave. Bronx, NY 10460</button>
+          </li>
+
+          <li>
+            <button>8705 Santa Clara St. Bronx, NY 10456</button>
+          </li>
+
+          <li>
+            <button>9757 New Saddle Ave. Staten Island, NY 10312</button>
+          </li>
+
+          <li>
+            <button>18 East Dogwood Dr. Brooklyn, NY 11229</button>
+          </li>
         </ul>
       </div>
     </div>
