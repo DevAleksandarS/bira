@@ -19,6 +19,8 @@
   width: 350px;
   background: #eaeaea;
   border-radius: 8px;
+  border: 0.5px solid #333;
+  z-index: 1;
 }
 .admin-companies .search-bar input {
   padding: 10px 20px;

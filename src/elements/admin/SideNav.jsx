@@ -20,12 +20,17 @@ export default function SideNav() {
         </li>
         <li>
           <button>
+            Messages <div className="active-nav-btn"></div>
+          </button>
+        </li>
+        <li>
+          <button>
             Companies <div className="active-nav-btn"></div>
           </button>
         </li>
         <li>
           <button>
-            Teams&Emloyes <div className="active-nav-btn"></div>
+            Teams&Employes <div className="active-nav-btn"></div>
           </button>
         </li>
         <li>

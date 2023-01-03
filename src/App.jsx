@@ -1,12 +1,12 @@
 import React from "react";
 import SideNav from "./elements/admin/SideNav";
-import Companies from "./elements/admin/Companies";
+import TeamsEmployes from "./elements/admin/TeamsEmployes";
 
 export default function App() {
   return (
     <>
       <SideNav />
-      <Companies />
+      <TeamsEmployes />
     </>
   );
 }
