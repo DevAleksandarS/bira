@@ -1,12 +1,12 @@
 import React from "react";
+import CreateAccount from "./elements/admin/CreateAccount";
 import SideNav from "./elements/admin/SideNav";
-import TeamsEmployes from "./elements/admin/TeamsEmployes";
 
 export default function App() {
   return (
     <>
       <SideNav />
-      <TeamsEmployes />
+      <CreateAccount />
     </>
   );
 }

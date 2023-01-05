@@ -1,0 +1,46 @@
+.admin-create-account {
+  margin-left: 300px;
+  width: calc(100vw - 300px);
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  gap: 40px;
+}
+.admin-create-account .add {
+  width: 290px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.admin-create-account .add label {
+  margin-top: 20px;
+}
+.admin-create-account .add input {
+  width: 250px;
+  font-size: inherit;
+  padding: 2.5px 7.5px;
+  margin-top: 2.5px;
+  border-radius: 10px;
+}
+.admin-create-account .add .add-image {
+  margin-top: 0;
+}
+.admin-create-account .add .button {
+  font-size: inherit;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background: #333;
+  border: 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.admin-create-account .add .button:hover {
+  background: #111;
+}/*# sourceMappingURL=admin-create-account.css.map */
