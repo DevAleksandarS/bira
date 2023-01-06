@@ -21,7 +21,7 @@
 .admin-create-account .add label {
   margin-top: 20px;
 }
-.admin-create-account .add input {
+.admin-create-account .add input, .admin-create-account .add select {
   width: 250px;
   font-size: inherit;
   padding: 2.5px 7.5px;

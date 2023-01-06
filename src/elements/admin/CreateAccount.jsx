@@ -20,12 +20,21 @@ export default function CreateAccount() {
         >
           <Image size={40} color="#333" weight="bold" />
         </label>
-        <label htmlFor="cname">Company Name:</label>
-        <input type="text" id="cname" name="cname" />
-        <label htmlFor="ceo">CEO:</label>
-        <input type="text" id="ceo" name="ceo" />
+        <label htmlFor="ename">Employee Full Name:</label>
+        <input type="text" id="ename" name="ename" />
+        <label htmlFor="eposition">Employee Position:</label>
+        <select id="eposition" name="eposition">
+          <option value="tickets-manager">Tickets Manager</option>
+          <option value="technical-support">Technical Support</option>
+          <option value="ticketing">Ticketing</option>
+        </select>
+        <label htmlFor="team">Team:</label>
+        <select id="team" name="team">
+          <option value="team1">Team 1</option>
+          <option value="team2">Team 2</option>
+        </select>
 
-        <input className="button" type="submit" value="Add Company" />
+        <input className="button" type="submit" value="Add Employee" />
       </form>
 
       <form className="add">
@@ -43,12 +52,12 @@ export default function CreateAccount() {
         >
           <Image size={40} color="#333" weight="bold" />
         </label>
-        <label htmlFor="ename">Employee Full Name:</label>
-        <input type="text" id="ename" name="ename" />
-        <label htmlFor="eposition">Employee Position:</label>
-        <input type="text" id="eposition" name="eposition" />
+        <label htmlFor="cname">Company Name:</label>
+        <input type="text" id="cname" name="cname" />
+        <label htmlFor="ceo">CEO:</label>
+        <input type="text" id="ceo" name="ceo" />
 
-        <input className="button" type="submit" value="Add Employee" />
+        <input className="button" type="submit" value="Add Company" />
       </form>
     </div>
   );
